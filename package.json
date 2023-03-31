@@ -1,0 +1,26 @@
+{
+  "name": "react-video-chat",
+  "version": "1.0.0",
+  "description": "Video chat React app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickltang/React-Video-Chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickltang/React-Video-Chat/issues"
+  },
+  "homepage": "https://github.com/nickltang/React-Video-Chat#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.6.1"
+  }
+}
